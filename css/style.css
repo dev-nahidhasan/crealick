@@ -1,0 +1,77 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  position: relative;
+  height: 100vh;
+}
+
+/* Global */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, rgb(252, 228, 236), rgb(227, 242, 253));
+}
+
+.logo {
+  font-size: 32px;
+  font-family: "Algerian";
+}
+
+/* .container {
+  margin: auto;
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+.anim {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container p {
+  font-size: 32px;
+  font-family: "Algerian";
+  top: 40%;
+  left: 40%;
+  background: linear-gradient(to right, #e40067,
+      #249c00, #a2e800, #002092);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.download {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.download p {
+  font-size: 15px;
+  color: green;
+}
