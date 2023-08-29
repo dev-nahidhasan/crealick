@@ -18,16 +18,23 @@
     <div  class="main">
       <img src="img/login-01.png" alt="Crealick" class="logImage">
       <div class="logInput">
-        <p>crealick</p>
-      <input type="email" name="email" id="email" placeholder="Email">
-      <input type="password" name="password" id="pass" placeholder="Password">
-      <input type="button" value="Log In" id="btn">
-      <div class="divider"></div>
-      <p class="createAccount">Don't have account?  <span>Create Account</span></p>
+      <p class="logo">crealick</p>
+      <p class="slogan">Free, Easy & Creative</p>
+      <input type="email" placeholder="Email" class="email">
+      <input type="password" class="password" placeholder="Password">
+      <input type="password" class="cpassword" placeholder="Confirm Password" id="pass">
+      <button id="btn">Log In</button>
+      <p class="createAccount">Don't have account?  <span onclick="myFunction()">Create Account</span></p>
       </div>
     </div>
   </section>
-  
+
+  <script>
+    function myFunction() {
+    document.getElementById("pass").style.display="flex";
+    document.getElementById("btn").innerText="Create";
+}
+  </script>
 </body>
 
 </html>

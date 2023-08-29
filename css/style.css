@@ -8,7 +8,6 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* background: linear-gradient(to  left, rgb(252, 228, 236), rgb(227, 242, 253)); */
 }
 
 section{
@@ -19,7 +18,7 @@ section{
   position: relative;
 }
 
-.main{
+section .main{
   width: 800px;
   height: 500px;
   background: linear-gradient(to  left, rgba(252, 228, 236, 0.5), rgba(227, 242, 253, 0.5));
@@ -32,64 +31,100 @@ section{
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 20px;
 }
 
-.logInput{
+section .main .logInput{
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.main .logImage {
+section .main .logImage {
   width: 400px;
   height: 400px;
 }
 
-.logInput #email{
+section .main .logInput .email{
   width: 220px;
+  outline: none;
   border: none;
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 8px;
 }
 
-.logInput p{
- font-size: 35px;
-  font-family: Algerian;
-}
+section .main .logInput .logo{
+  font-size: 35px;
+   font-family: Algerian;
+   margin-bottom: -10px;
+ }
 
-.logInput .createAccount{
-  font-size: 15px;
+section .main .logInput .slogan{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+ }
+
+section .main .logInput .createAccount{
+  font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
  }
 
- .logInput .createAccount span{
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+ section .main .logInput .createAccount span{
   color: rgb(0, 148, 254);
+  cursor: pointer;
  }
 
-.logInput #pass{
+ section .main .logInput .password{
   width: 220px;
   border: none;
+  outline: none;
   padding: 10px;
   border-radius: 8px;
   margin-bottom: 20px;
 }
 
-.logInput input[type=password] :focus{
-  border: 1px solid #1670BE;
+section .main .logInput .cpassword{
+  width: 220px;
+  border: none;
+  outline: none;
+  display: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
-.logInput #btn{
+section .main .logInput input[type="password"]:focus{
+  outline: 1px solid rgb(163, 217, 255);
+}
+
+section .main .logInput input[type="email"]:focus{
+  outline: 1px solid rgb(163, 217, 255);
+}
+
+
+section .main .logInput button{
   width: 235px;
   font-family: Algerian;
   border: none;
   padding: 8px;
   margin-bottom: 8px;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 20px;
   background: linear-gradient(to  right, rgba(252, 228, 236, 0.5), rgba(227, 242, 253, 0.5));
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px;
   cursor: pointer;
+}
+
+section .main .logInput button:hover{
+  outline: 1px solid rgb(163, 217, 255);
+}
+
+
+@media (max-width:480px){
+  section .main{
+    width: 400px;
+  height: 500px;
+  background-image: url(img/login-01.png);
+  }
 }
 
