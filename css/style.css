@@ -1,77 +1,78 @@
+@font-face {
+  font-family: Algerian;
+  src: url(./css/Algerian.ttf);
+}
+
+
 body {
-  font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #fff;
-  position: relative;
-  height: 100vh;
+  box-sizing: border-box;
+  /* background: linear-gradient(to  left, rgb(252, 228, 236), rgb(227, 242, 253)); */
 }
 
-/* Global */
-
-.navbar {
+section{
   display: flex;
-  align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to right, rgb(252, 228, 236), rgb(227, 242, 253));
-}
-
-.logo {
-  font-size: 32px;
-  font-family: "Algerian";
-}
-
-/* .container {
-  margin: auto;
-  height: 450px;
-  width: 450px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-top-left-radius: 60px;
-  border-bottom-right-radius: 60px;
-  display: flex;
   align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.main{
+  width: 800px;
+  height: 500px;
+  background: linear-gradient(to  left, rgba(252, 228, 236, 0.5), rgba(227, 242, 253, 0.5));
+  backdrop-filter: blur(30px);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 20px;
+}
+
+.logInput{
+  display: flex;
   justify-content: center;
   flex-direction: column;
-} */
-
-.anim {
-  display: flex;
-  margin: auto;
   align-items: center;
-  justify-content: center;
 }
 
-.container {
-  display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+.main .logImage {
+  width: 400px;
+  height: 400px;
 }
 
-.container p {
-  font-size: 32px;
-  font-family: "Algerian";
-  top: 40%;
-  left: 40%;
-  background: linear-gradient(to right, #e40067,
-      #249c00, #a2e800, #002092);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+.logInput #email{
+  width: 200px;
+  border: none;
+  padding: 8px;
+  margin-bottom: 40px;
+  border-radius: 8px;
 }
 
-.download {
-  display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
+.logInput p{
+ font-size: 30px;
+  font-family: Algerian;
 }
 
-.download p {
+.logInput #pass{
+  width: 200px;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.logInput #btn{
+  width: 80px;
+  font-family: Algerian;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
   font-size: 15px;
-  color: green;
+  background: #fff;
+  cursor: pointer;
 }
+
