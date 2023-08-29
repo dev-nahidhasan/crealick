@@ -45,34 +45,51 @@ section{
 }
 
 .logInput #email{
-  width: 200px;
+  width: 220px;
   border: none;
-  padding: 8px;
-  margin-bottom: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
   border-radius: 8px;
 }
 
 .logInput p{
- font-size: 30px;
+ font-size: 35px;
   font-family: Algerian;
 }
 
+.logInput .createAccount{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .logInput .createAccount span{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 148, 254);
+ }
+
 .logInput #pass{
-  width: 200px;
+  width: 220px;
   border: none;
-  padding: 8px;
+  padding: 10px;
   border-radius: 8px;
   margin-bottom: 20px;
 }
 
+.logInput input[type=password] :focus{
+  border: 1px solid #1670BE;
+}
+
 .logInput #btn{
-  width: 80px;
+  width: 235px;
   font-family: Algerian;
   border: none;
-  padding: 10px;
+  padding: 8px;
+  margin-bottom: 8px;
   border-radius: 10px;
-  font-size: 15px;
-  background: #fff;
+  font-size: 18px;
+  background: linear-gradient(to  right, rgba(252, 228, 236, 0.5), rgba(227, 242, 253, 0.5));
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px;
   cursor: pointer;
 }
 
