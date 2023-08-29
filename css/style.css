@@ -1,6 +1,7 @@
 @font-face {
-  font-family: Algerian;
-  src: url(css/Algerian.ttf);
+  font-family: "Algerian";
+  src: url("css/Algerian.ttf");
+  src: url("css/Algerian.ttf") format("ttf");
 }
 
 
@@ -54,7 +55,7 @@ section .main .logInput .email{
 
 section .main .logInput .logo{
   font-size: 35px;
-   font-family: Algerian;
+   font-family: "Algerian";
    margin-bottom: -10px;
  }
 
@@ -104,7 +105,7 @@ section .main .logInput input[type="email"]:focus{
 
 section .main .logInput button{
   width: 235px;
-  font-family: Algerian;
+  font-family: "Algerian";
   border: none;
   padding: 8px;
   margin-bottom: 8px;
@@ -124,7 +125,7 @@ section .main .logInput button:hover{
   section .main{
     width: 400px;
   height: 500px;
-  background-image: url(img/login-01.png);
+  background-image: url("img/login-01.png");
   }
 }
 
