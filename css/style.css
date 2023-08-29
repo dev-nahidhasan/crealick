@@ -124,8 +124,9 @@ section .main .logInput button:hover{
 @media (max-width:480px){
   section .main{
     width: 400px;
-  height: 500px;
-  background-image: url("img/login-01.png");
+  }
+  section .main .logImage {
+    display: none;
   }
 }
 
