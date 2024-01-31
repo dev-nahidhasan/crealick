@@ -1,74 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Social Media & Freelancing Platform" />
-    <meta
-      name="keywords"
-      content="Crealick, social media, freelancing, outsourcing, crealick website, crealick web, crealick app, crealick apk"
-    />
-    <meta name="author" content="Nahid Hasan" />
-    <meta name="viewport" content="width = device-width, initial-scale=1.0" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="apple-mobile-web-app-title" content="Crealick" />
-    <link rel="apple-touch-icon" href="favicon/icon-192x192.png" />
-    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
-    <title>Crealick</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Social Media & Freelancing Platform" />
+  <meta name="keywords"
+    content="Crealick, social media, freelancing, outsourcing, crealick website, crealick web, crealick app, crealick apk" />
+  <meta name="author" content="Nahid Hasan" />
+  <meta name="viewport" content="width = device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="Crealick" />
+  <link rel="apple-touch-icon" href="favicon/icon-192x192.png" />
+  <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <body class="bg-light">
-    <header class="bg-white shadow-sm">
-      <input type="checkbox" name="checkbox" id="chkb1" />
-      <a href="#"  class="logo">CREALICK</a>
-      <div class="search-box">
-        <form action="">
-          <input type="search" name="search" id="srch" placeholder="Search" />
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-      </div>
-      <div class="menu-box">
-        <form action="">
-          <a href="#"
-            ><button type="submit"><i class="fa-solid fa-house"></i></button
-          ></a>
-          <a href="#"
-            ><button type="submit"><i class="fa-solid fa-briefcase"></i></button
-          ></a>
-          <a href="#"
-            ><button type="submit">
-              <i class="fa-solid fa-user-group"></i></button
-          ></a>
-          <a href="#"
-            ><button type="submit">
-              <i class="fa-solid fa-money-check-dollar"></i></button
-          ></a>
-          <a href="#"
-            ><button type="submit"><i class="fa-solid fa-bell"></i></button
-          ></a>
-          <a href="#"
-            ><button type="submit" class="profile">
-              <i class="fa fa-user"></i></button
-          ></a>
-        </form>
-      </div>
-      <div class="menu">
-        <label for="chkb1">
-          <i class="fa fa-bars"></i>
-        </label>
-      </div>
-    </header>
+  <title>Crealick</title>
+</head>
 
-    <script src="./js/bootstrap.bundle.js"></script>
-  </body>
+<body class="bg-light">
+
+  <nav class="nav-div bg-white shadow-sm">
+    <div class="nav-left nav-div">
+      <img class="logo-icon" src="./images/crealick.svg" alt="">
+      <a href="#" class="logo">CREALICK</a>
+    </div>
+
+    <div class="nav-middle nav-div">
+      <div class="search-box nav-div">
+        <input type="text" placeholder="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <button class="bg-light shadow-sm"><img class="add-icon" src="./images/add.svg" alt=""></button>
+      <button class="profile-icon shadow-sm"><img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
+          alt=""></button>
+    </div>
+  </nav>
+
+  <!----left-sidebar---->
+  <div class="sidebar bg-white">
+    <div class="menu-links">
+      <a href="#">
+        <div class="bg-light shadow-sm item-icon"><i class="fa-solid fa-house"></i></div>
+        <div class="menu-item">Home</div>
+      </a>
+      <a href="#">
+        <div class="bg-light shadow-sm item-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="menu-item">Job</div>
+      </a>
+      <a href="#">
+        <div class="bg-light shadow-sm item-icon"><i class="fa-solid fa-user-group"></i></div>
+        <div class="menu-item">Friends</div>
+      </a>
+      <a href="#">
+        <div class="bg-light shadow-sm item-icon"><i class="fa-solid fa-money-check-dollar"></i></div>
+        <div class="menu-item">Payment</div>
+      </a>
+      <a href="#">
+        <div class="bg-light shadow-sm item-icon"><i class="fa-solid fa-wallet"></i></div>
+        <div class="menu-item">Wallet</div>
+      </a>
+      <hr>
+    </div>
+
+    <h6>Top 5 Buyer</h6>
+
+    <a href="#" class="top5-profile">
+      <div class="bg-light shadow-sm item-icon"><img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
+          alt=""></div>
+      <p class="menu-item">Nahid Hasan</p>
+    </a>
+    <a href="#" class="top5-profile">
+      <div class="bg-light shadow-sm item-icon"><img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
+          alt=""></div>
+      <p class="menu-item">Nahid Hasan</p>
+    </a>
+    <a href="#" class="top5-profile">
+      <div class="bg-light shadow-sm item-icon"><img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
+          alt=""></div>
+      <p class="menu-item">Nahid Hasan</p>
+    </a>
+    <a href="#" class="top5-profile">
+      <div class="bg-light shadow-sm item-icon"><img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
+          alt=""></div>
+      <p class="menu-item">Nahid Hasan</p>
+    </a>
+    <a href="#" class="top5-profile">
+      <div class="bg-light shadow-sm item-icon"><img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
+          alt=""></div>
+      <p class="menu-item">Nahid Hasan</p>
+    </a>
+  </div>
+
+  <!----right-sidebar---->
+  <div class="right-sidebar bg-white">
+    <div class="menu-links">
+      <a href="#">
+        <div class="bg-light shadow-sm item-icon message-icon"><img
+            src="https://cdn-icons-png.flaticon.com/512/3721/3721843.png" alt=""></div>
+        <div class="menu-item">Message</div>
+      </a>
+      <a href="#">
+        <div class="bg-light shadow-sm item-icon"><i class="fa-solid fa-bell"></i></div>
+        <div class="menu-item">Notification</div>
+      </a>
+      <a href="#">
+        <div class="bg-light shadow-sm item-icon"><i class="fa-solid fa-gear"></i></div>
+        <div class="menu-item">Settings</div>
+      </a>
+      <a href="#">
+        <div class="bg-light shadow-sm item-icon"><i class="fa-solid fa-circle-question"></i></div>
+        <div class="menu-item">Help</div>
+      </a>
+      <a href="#">
+        <div class="bg-light shadow-sm item-icon message-icon"><img
+            src="https://cdn-icons-png.flaticon.com/512/4893/4893587.png" alt=""></div>
+        <div class="menu-item">NightMode</div>
+      </a>
+      <a href="#">
+        <div class="bg-light shadow-sm item-icon"><i class="fa-solid fa-arrow-right-from-bracket"></i></div>
+        <div class="menu-item">Logout</div>
+      </a>
+      <hr>
+    </div>
+
+    <h6>Top 5 Freelancer</h6>
+
+    <a href="#" class="top5-profile">
+      <div class="bg-light shadow-sm item-icon"><img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
+          alt=""></div>
+      <p class="menu-item">Nahid Hasan</p>
+    </a>
+    <a href="#" class="top5-profile">
+      <div class="bg-light shadow-sm item-icon"><img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
+          alt=""></div>
+      <p class="menu-item">Nahid Hasan</p>
+    </a>
+    <a href="#" class="top5-profile">
+      <div class="bg-light shadow-sm item-icon"><img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
+          alt=""></div>
+      <p class="menu-item">Nahid Hasan</p>
+    </a>
+    <a href="#" class="top5-profile">
+      <div class="bg-light shadow-sm item-icon"><img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
+          alt=""></div>
+      <p class="menu-item">Nahid Hasan</p>
+    </a>
+    <a href="#" class="top5-profile">
+      <div class="bg-light shadow-sm item-icon"><img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png"
+          alt=""></div>
+      <p class="menu-item">Nahid Hasan</p>
+    </a>
+  </div>
+
+  <!------main container------>
+  <div class="main-container bg-light">
+    <div class="list-container shadow-sm">
+      <div class="video-list">
+      </div>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+  <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
 </html>
