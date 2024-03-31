@@ -65,17 +65,7 @@ nav {
     height: 35px;
 }
 
-.nav-left .logo {
-    text-decoration: none;
-    font-family: Cyclo;
-    font-weight: 600;
-    color: var(--Pink);
-    font-size: 35px;
-    margin-top: 8px;
-}
-
 .nav-left .logo-icon {
-    width: 45px;
     margin-right: 10px;
 }
 
