@@ -9,7 +9,7 @@ let walIconBar = document.getElementById("walIconBar");
 
 homeIconBar.onclick = function () {
     homeIcon.classList.toggle("icon-clicked")
-    window.location.href = "http://127.0.0.1:5500/index.html";
+    window.location.href = "https://crealick.com";
 }
 jobIconBar.onclick = function () {
     jobIcon.classList.toggle("icon-clicked")
